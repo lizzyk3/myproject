@@ -1,4 +1,4 @@
-/* General styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/* Header styles */
+/* Header */
 header {
     background-color: #2d5c80;
     color: white;
@@ -17,7 +17,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 nav {
@@ -29,50 +29,48 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Main content styles */
-main {
+/* Product Showcase */
+.product-showcase {
+    margin: 3rem auto;
     padding: 2rem;
-}
-
-section#product-showcase {
-    margin: 2rem auto;
-    max-width: 800px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     text-align: center;
 }
 
-section#product-showcase h2 {
+.product-showcase h2 {
+    font-size: 2rem;
     color: #2d5c80;
     margin-bottom: 1rem;
 }
 
-#product-showcase  {
+.product-showcase img {
+    max-width: 80px; /* Small size for the image */
     margin: 1rem 0;
-    max-width: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
-section#product-showcase p {
-    font-size: 1.2rem;
+.product-showcase p {
+    font-size: 1.3rem;
     font-weight: bold;
     color: #333;
 }
 
-/* Footer styles */
+/* Footer */
 footer {
     background-color: #2d5c80;
     color: white;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     margin-top: 2rem;
+    font-size: 0.9rem;
 }
-
