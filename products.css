@@ -55,7 +55,7 @@ section#product-showcase h2 {
     margin-bottom: 1rem;
 }
 
-section#product-showcase img {
+#product-showcase  {
     margin: 1rem 0;
     max-width: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
