@@ -57,7 +57,7 @@ section#product-showcase h2 {
 
 section#product-showcase img {
     margin: 1rem 0;
-    max-width: 200px;
+    max-width: 100px; /* Reduced the size */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
