@@ -63,6 +63,7 @@ main {
   height: 300px;
   overflow: hidden;
   border-radius: 50%;
+  text-align: center;
 }
 
 .team-member img {
