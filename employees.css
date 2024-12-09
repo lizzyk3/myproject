@@ -59,7 +59,7 @@ main {
 }
 
 .team-member img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
