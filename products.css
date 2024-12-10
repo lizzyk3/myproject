@@ -54,10 +54,10 @@ nav a:hover {
 }
 
 .product-showcase img {
-    max-width: 80px; /* Small size for the image */
+    max-width: 50px; /* Resized image to be very small */
     margin: 1rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .product-showcase p {
