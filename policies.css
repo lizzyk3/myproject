@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #2d5c80;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #194a70;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #143954;
+}
+
+/* Policy Section */
+.policy-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.policy-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    max-width: 350px;
+    text-align: left;
+    flex: 1 1 calc(33% - 2rem);
+}
+
+.policy-card h2 {
+    font-size: 1.5rem;
+    color: #2d5c80;
+    margin-bottom: 1rem;
+}
+
+.policy-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.policy-card ol {
+    margin: 0;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.policy-card ol li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2d5c80;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
