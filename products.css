@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 .product-showcase img {
-    max-width: 50px; /* Resized image to be very small */
+    max-width: 5px; /* Resized image to be very small */
     margin: 1rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
