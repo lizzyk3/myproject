@@ -53,8 +53,8 @@ nav a:hover {
 }
 
 .product-showcase img {
-    width: 40px; /* Small square size */
-    height: 40px; /* Ensures a square aspect ratio */
+    width: 100px; /* Small square size */
+    height: 100px; /* Ensures a square aspect ratio */
     margin: 1rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px; /* Rounded edges */
