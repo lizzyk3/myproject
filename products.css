@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +7,6 @@ body {
     text-align: center;
 }
 
-/* Header */
 header {
     background-color: #2d5c80;
     color: white;
@@ -36,7 +34,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Product Showcase */
 .product-showcase {
     margin: 3rem auto;
     padding: 2rem;
@@ -54,7 +51,8 @@ nav a:hover {
 }
 
 .product-showcase img {
-    max-width: 5px; /* Resized image to be very small */
+    max-width: 50px !important; /* Enforce smaller image size */
+    height: auto;
     margin: 1rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -66,7 +64,6 @@ nav a:hover {
     color: #333;
 }
 
-/* Footer */
 footer {
     background-color: #2d5c80;
     color: white;
