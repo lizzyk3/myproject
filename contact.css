@@ -39,59 +39,71 @@ nav a:hover {
     background-color: #143954;
 }
 
-/* Content Layout */
-.content {
+/* Main Section */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #2d5c80;
+    margin-bottom: 2rem;
+}
+
+/* Contact Container */
+.contact-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 2rem;
     flex-wrap: wrap;
-    padding: 2rem;
+}
+
+/* Contact Info */
+.contact-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
-/* Policies Section */
-.policies {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.policy-card {
+.office {
+    text-align: left;
     background-color: white;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    padding: 1.5rem;
-    text-align: left;
 }
 
-.policy-card h2 {
+.office h3 {
     font-size: 1.5rem;
     color: #2d5c80;
     margin-bottom: 1rem;
 }
 
-.policy-card p,
-.policy-card ol {
+.office p {
     font-size: 1rem;
     line-height: 1.5;
-}
-
-.policy-card ol {
-    padding-left: 1.5rem;
-}
-
-.policy-card ol li {
     margin-bottom: 0.5rem;
+}
+
+.office a {
+    color: #2d5c80;
+    text-decoration: none;
+}
+
+.office a:hover {
+    text-decoration: underline;
 }
 
 /* Map Section */
 .map-container {
-    flex: 2;
+    flex: 1;
     text-align: center;
 }
 
-.map-container h2 {
+.map-container h3 {
     font-size: 1.5rem;
     color: #2d5c80;
     margin-bottom: 1rem;
