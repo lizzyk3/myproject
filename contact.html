@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Destructive Plastic Bags</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+<body>
+    <header>
+        <h1>Self Destructive Plastic Bags</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#team">Our Team</a>
+            <a href="#products">Products</a>
+            <a href="#policies">Policies</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="policies">
+            <div class="policy-card">
+                <h2>Financing Policies</h2>
+                <p><strong>Payment Plans:</strong> We offer interest-free payment plans through our financing partner. You can split your total purchase amount into 3, 6, or 12-month installments.</p>
+                <p><strong>Eligibility:</strong> Financing is available for orders over $50.</p>
+                <p><strong>Late Payments:</strong> Late fees may apply for missed payments.</p>
+            </div>
+            <div class="policy-card">
+                <h2>Delivery Policies</h2>
+                <p><strong>Processing Time:</strong> Orders are processed within 1-2 business days.</p>
+                <ol>
+                    <li><strong>Standard Shipping:</strong> 5-7 business days.</li>
+                    <li><strong>Expedited Shipping:</strong> 2-3 business days.</li>
+                    <li><strong>Overnight Shipping:</strong> 1 business day.</li>
+                </ol>
+            </div>
+            <div class="policy-card">
+                <h2>Return Policies</h2>
+                <p><strong>Return Period:</strong> You have 30 days from the date of delivery for returns or exchanges.</p>
+                <p><strong>Conditions:</strong> Items must be unused and in original packaging.</p>
+            </div>
+        </section>
+        <section class="map-container">
+            <h2>Find Us Here</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © Elizabeth Kulik</p>
+    </footer>
+    <script>
+        // Initialize the Google Map
+        function initMap() {
+            const location = { lat: 40.73061, lng: -73.935242 }; // Random location (New York City)
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: location,
+            });
+            new google.maps.Marker({
+                position: location,
+                map: map,
+            });
+        }
+        // Load the map once the page is loaded
+        window.onload = initMap;
+    </script>
+</body>
+</html>
