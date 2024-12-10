@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,6 +8,7 @@ body {
     text-align: center;
 }
 
+/* Header */
 header {
     background-color: #2d5c80;
     color: white;
@@ -15,7 +17,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem; /* Original font size */
 }
 
 nav {
@@ -27,13 +29,13 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    font-size: 1.2rem;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* Product Showcase */
 .product-showcase {
     margin: 3rem auto;
     padding: 2rem;
@@ -45,29 +47,30 @@ nav a:hover {
 }
 
 .product-showcase h2 {
-    font-size: 2rem;
-    color: #2d5c80;
+    font-size: 1.5rem; /* Original smaller font size */
+    color: #2d5c80; /* Original color */
     margin-bottom: 1rem;
 }
 
 .product-showcase img {
-    max-width: 50px !important; /* Enforce smaller image size */
-    height: auto;
+    width: 40px; /* Small square size */
+    height: 40px; /* Ensures a square aspect ratio */
     margin: 1rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+    border-radius: 4px; /* Rounded edges */
 }
 
 .product-showcase p {
-    font-size: 1.3rem;
+    font-size: 1rem; /* Original font size */
     font-weight: bold;
-    color: #333;
+    color: #333; /* Original font color */
 }
 
+/* Footer */
 footer {
     background-color: #2d5c80;
     color: white;
     padding: 1rem 0;
     margin-top: 2rem;
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* Original font size */
 }
